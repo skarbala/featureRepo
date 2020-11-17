@@ -1,6 +1,6 @@
 Feature: Place picker
 
-    @Critical
+    @Critical @smoke
     Scenario: Select a place
         Given user is on search form
 
@@ -10,7 +10,7 @@ Feature: Place picker
 
         Then place populates placePicker field
 
-    @Critical
+    @Critical @automated-web
     Scenario: Add multiple places
         Given user is on search form
         And a place is already selected as a destination
