@@ -2,9 +2,9 @@ import Vue from 'vue'
 import App from './App.vue'
 import axios from "axios"
 import VueRouter from 'vue-router'
-import SearchFeature from '../src/components/views/SearchFeature.vue'
-import MMBFeature from '../src/components/views/MMBFeature.vue'
-import BookingFeature from '../src/components/views/BookingFeature.vue'
+import SearchFeature from '../src/pages/SearchFeature.vue'
+import MMBFeature from '../src/pages/MMBFeature.vue'
+import BookingFeature from '../src/pages/BookingFeature.vue'
 
 import Stats from '../src/components/Stats.vue'
 

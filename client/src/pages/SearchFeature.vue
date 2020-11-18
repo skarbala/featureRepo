@@ -18,9 +18,9 @@
 </template>
 
 <script>
-import FeatureList from "../FeatureList.vue";
-import ScenarioDetail from "../ScenarioDetail.vue";
-import FeatureModal from "../FeatureModal.vue";
+import FeatureList from "../components/FeatureList.vue";
+import ScenarioDetail from "../components/ScenarioDetail.vue";
+import FeatureModal from "../components/FeatureModal.vue";
 
 export default {
   name: "SearchFeature",
