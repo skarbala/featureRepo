@@ -55,7 +55,16 @@ h1 {
 ul {
   list-style-type: none;
   padding: 0;
-
+  ul.scenarios {
+    li {
+      float: none;
+      margin: 0;
+      cursor: pointer;
+      &:hover {
+        color: #005c4e;
+      }
+    }
+  }
   li.feature {
     text-align: left;
     display: inline-block;
@@ -68,6 +77,7 @@ ul {
       padding: 5px 10px;
       color: white;
       border-radius: 5px 5px 0 0;
+      cursor: pointer;
     }
     a {
       font-size: 0.7em;
@@ -89,16 +99,7 @@ h1.loading-message {
   margin: 150px 0;
   color: #bac7d5;
 }
-ul.scenarios {
-  li {
-    float: none;
-    margin: 0;
-    cursor: pointer;
-    &:hover {
-      color: #005c4e;
-    }
-  }
-}
+
 p.scenario-name {
   font-size: 0.4em;
 }
