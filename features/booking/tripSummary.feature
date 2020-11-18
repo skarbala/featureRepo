@@ -1,4 +1,5 @@
 Feature: Trip summary
+    As a user I would like to see detailed information about my trip summary.
 
     @Medium @automated-web
     Scenario: Display one class for each connecting flight

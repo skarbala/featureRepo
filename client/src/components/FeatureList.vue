@@ -5,7 +5,7 @@
     <h1 class="loading-message" v-if="!loaded">Getting data from repo...</h1>
     <ul>
       <li class="feature" v-for="feature in features" :key="feature.id">
-        <h4>{{ feature.name }}</h4>
+        <h4 @click="clickedOnFeature(feature)">{{ feature.name }}</h4>
         <div class="scenario-container">
           <p>Scenarios: {{ feature.children.length }}</p>
 
@@ -36,6 +36,9 @@ export default {
   methods: {
     clickedOnScenario: function (scenario) {
       this.$emit("clickedOnScenario", scenario);
+    },
+    clickedOnFeature: function (feature) {
+      this.$emit("selectFeature", feature);
     },
   },
 };

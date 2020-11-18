@@ -1,5 +1,5 @@
 Feature: Currency picker
-
+    As a user, I would like to change currency so I can see how much money I will pay with my own currency.
     @Medium
     Scenario: Currency picker button
         Given user is on the destination screen.
