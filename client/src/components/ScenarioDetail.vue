@@ -22,19 +22,19 @@ div.scenario-container {
   text-align: left;
   margin: 0 50px;
   width: 500px;
-}
-ul {
-  list-style: none;
-  li {
-    display: block;
-    margin: 0;
-    float: none;
-    span {
-      color: #005c4e;
-      font-weight: 700;
-    }
-    p {
+  ul {
+    list-style: none;
+    li {
+      display: block;
       margin: 0;
+      float: none;
+      span {
+        color: #005c4e;
+        font-weight: 700;
+      }
+      p {
+        margin: 0;
+      }
     }
   }
 }

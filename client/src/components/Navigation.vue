@@ -10,9 +10,6 @@
       <li class="nav-item">
         <router-link class="nav-link" to="/mmb">MMB</router-link>
       </li>
-      <li class="nav-item">
-        <router-link class="nav-link" to="/stats">Stats</router-link>
-      </li>
     </ul>
   </nav>
 </template>  

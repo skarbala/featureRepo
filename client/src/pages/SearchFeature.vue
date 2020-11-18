@@ -1,7 +1,6 @@
 <template>
   <div>
     <feature-list
-      class="feature-list"
       :name="'Search features'"
       :features="features"
       :loaded="loaded"
