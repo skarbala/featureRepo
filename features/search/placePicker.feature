@@ -6,3 +6,8 @@ Feature: Place picker
         When adds desired origin place
         Then place populates place picker field
 
+    @automated-web
+    Scenario: Add another place
+        Given user is on search form
+
+
