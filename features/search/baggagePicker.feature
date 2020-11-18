@@ -1,5 +1,5 @@
 Feature: Baggage
-
+    @smoke
     Scenario: Add baggage
         Given user is on search page
         When user adds one baggage
